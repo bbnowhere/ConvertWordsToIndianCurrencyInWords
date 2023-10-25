@@ -1,6 +1,6 @@
 <?php
 
-function convertNumberToWordsForIndia($number)
+function IndianCurrencyInWords($number)
 {
 
       // Separate the integer and decimal parts
@@ -114,6 +114,6 @@ function convertDecimalToWords($number) {
 }
 
 // Example usage
-echo convertNumberToWordsForIndia("600575");
+echo IndianCurrencyInWords("600575");
     
 ?>
